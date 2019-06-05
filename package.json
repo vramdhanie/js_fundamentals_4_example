@@ -1,0 +1,22 @@
+{
+  "name": "js_fundamentals_checkpoint_4_example",
+  "version": "0.0.1",
+  "description": "Demonstration code for JavaScript fundamentals - collections",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vramdhanie/js_fundamentals_4_example.git"
+  },
+  "keywords": [
+    "Array",
+    "JavaScript",
+    "push",
+    "splice"
+  ],
+  "author": "Vincent Ramdhanie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vramdhanie/js_fundamentals_4_example/issues"
+  },
+  "homepage": "https://github.com/vramdhanie/js_fundamentals_4_example#readme"
+}
