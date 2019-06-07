@@ -23,3 +23,11 @@ footer {
 .answer {
   margin-top: 5px;
 }
+
+.title {
+  font-weight: bold;
+}
+
+.role {
+  font-style: italic;
+}
