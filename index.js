@@ -23,7 +23,7 @@ for (let i = 0; i < answers.length; i++) {
 }
 
 // get the answers element
-const answerDiv = document.querySelector('#answers');
+const answerOl = document.querySelector('#answers');
 
 // for each element in the array, append a node to the DOM
 for (let i = 0; i < shuffled.length; i++) {
@@ -31,5 +31,5 @@ for (let i = 0; i < shuffled.length; i++) {
   const ans = document.createElement('li');
   ans.innerHTML = shuffled[i];
   ans.className = 'answer';
-  answerDiv.append(ans);
+  answerOl.append(ans);
 }
