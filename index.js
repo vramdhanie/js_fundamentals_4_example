@@ -23,10 +23,10 @@ for (let i = 0; i < answers.length; i++) {
 }
 
 // get the answers element
-const answerDiv = document.querySelector('#answers');
+const answerOl = document.querySelector('#answers');
 
 const elements = shuffled.map(function(answer) {
   return '<li class="answer">' + answer + '</li>';
 });
 
-answerDiv.innerHTML = elements.join('');
+answerOl.innerHTML = elements.join('');
