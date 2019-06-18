@@ -26,10 +26,10 @@ for (let i = 0; i < answers.length; i++) {
 const answerOl = document.querySelector('#answers');
 
 // for each element in the array, append a node to the DOM
-for (let i = 0; i < shuffled.length; i++) {
-  // create a DOM element
-  const ans = document.createElement('li');
-  ans.innerHTML = shuffled[i];
-  ans.className = 'answer';
-  answerOl.append(ans);
-}
+const answerList = shuffled
+  .map(function(answer) {
+    return '<li class="answers">' + answer + '</li>';
+  })
+  .join('');
+
+answerOl.innerHTML = answerList;
